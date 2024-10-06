@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Posts with Fixed Header and Footer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Fixed header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        /* Fixed footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        /* Scrollable content area */
+        .content {
+            margin-top: 60px; /* height of the header */
+            margin-bottom: 40px; /* height of the footer */
+            padding: 20px;
+            height: calc(100% - 100px); /* Adjust height excluding header/footer */
+            overflow-y: auto;
+            background-color: #f4f4f4;
+        }
+
+        .post {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <!-- Scrollable content -->
+    <div class="content">
+        <div class="post">
+            <h2>Post Title 1</h2>
+            <p>This is the content of the first post. Scroll through to see more posts!</p>
+        </div>
+        <div class="post">
+            <h2>Post Title 2</h2>
+            <p>This is the content of the second post. Keep scrolling to see more!</p>
+        </div>
+        <div class="post">
+            <h2>Post Title 3</h2>
+            <p>Another example of a post. You can add as many as you want here.</p>
+        </div>
+        <!-- Add more posts as needed -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
