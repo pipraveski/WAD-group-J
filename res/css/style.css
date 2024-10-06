@@ -127,3 +127,29 @@ a.nav:hover{
 .center{
     text-align: center;
 }
+
+/* Following is a way to fill a checklist of skills, this really isn't all that useful outside of profesional hyper optimised websites (new ones haven't been made in a long while aparently) */
+
+h1.checklist{
+    color: lightpink;
+}
+
+h2::first-letter{
+    font-style:oblique;
+}
+
+div h1{
+    color: green;
+}
+
+.checklistChild > h2{
+    color: blue;
+}
+
+div + h1 {
+    color: chartreuse;
+}
+
+div ~ p {
+  background-color: yellow;
+}
