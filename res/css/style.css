@@ -1,0 +1,35 @@
+.pageEnd {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: lightgrey;
+
+
+    border-radius: 5px;
+}
+
+.header{
+
+}
+
+.footer{
+    display: block;
+
+}
+
+.toLeft{
+    align-items: flex-end;
+}
+
+.container {
+    position: relative;
+    height: 100vh; /* Optional: full height container */
+  }
+  
+  .positioned-image {
+    position: absolute;
+    left: 0; /* Moves image to the left of the screen */
+    top: 50%; /* Optional: centers the image vertically */
+    transform: translateY(-50%); /* Optional: shifts image upwards by 50% of its height to achieve vertical centering */
+    max-width: 5%;
+    height: auto;
+  }
