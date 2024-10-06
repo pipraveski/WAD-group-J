@@ -1,35 +1,61 @@
-.pageEnd {
+header{
+    height: 100px;
+    position: relative;
     padding-top: .5em;
     padding-bottom: .5em;
     background-color: lightgrey;
-
-
     border-radius: 5px;
 }
 
-.header{
+footer{
+    position: fixed;
+    height: 50px;
+    background-color: lightgrey;
+    bottom: .5em;
+    left: .5em;
+    right: .5em;
+    border-radius: 5px;
 
 }
 
-.footer{
-    display: block;
-
+.headerProf{
+    float:right;
+    width:100px;
+    height:100px;
+    margin: -50px 20px;
 }
 
-.toLeft{
-    align-items: flex-end;
-}
-
-.container {
-    position: relative;
-    height: 100vh; /* Optional: full height container */
-  }
-  
-  .positioned-image {
+.heightCenter{
+    top: 50%;
+    margin: 0;
     position: absolute;
-    left: 0; /* Moves image to the left of the screen */
-    top: 50%; /* Optional: centers the image vertically */
-    transform: translateY(-50%); /* Optional: shifts image upwards by 50% of its height to achieve vertical centering */
-    max-width: 5%;
-    height: auto;
-  }
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navText{
+    font-size:xx-large;
+    margin-left: 2%;
+}
+
+a.nav:link{
+    text-decoration: none;
+    color: black;
+}
+
+a.nav:visited{
+}
+
+a.nav:hover{
+    background-color: darkgray;
+}
+
+.feed{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.showUp{
+    background-color: pink;
+}
