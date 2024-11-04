@@ -1,3 +1,7 @@
+body{
+    background-color: cornsilk;
+}
+
 header{
     height: 100px;
     position: fixed;
@@ -6,7 +10,7 @@ header{
     right: .5em;
     padding-top: .5em;
     padding-bottom: .5em;
-    background-color: lightgrey;
+    background-color: darkseagreen;
     border-radius: 5px;
     z-index: 1000;
     padding-left: auto;
@@ -16,13 +20,13 @@ header{
 footer{
     position: fixed;
     height: 50px;
-    background-color: lightgrey;
+    background-color: darkseagreen;
     bottom: .5em;
     left: .5em;
     right: .5em;
     border-radius: 5px;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 10px;
 
 }
 
@@ -87,7 +91,7 @@ a.nav:hover{
 }
 
 .post{
-    background-color: lightgray;
+    background-color: antiquewhite;
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 8px;
@@ -119,7 +123,7 @@ a.nav:hover{
     margin-right: 30%;
     margin-top: 150px;
     height: 60%;
-    background-color: lightgray;
+    background-color: darkseagreen;
     padding: 15px;
     border-radius: 8px;
 }
