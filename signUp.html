@@ -3,6 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="res/css/style.css">
     <link rel="icon" href="res/images/defaultProfile.jpg">
+    <script src="res/src/js/passwordQualifier.js" defer></script>
     <title>
         PS5/J group HW1
     </title>
@@ -14,12 +15,12 @@
     <main>
         <div class="selection showUp">
             <div class="center">
-                <a>Sign-In</a>
+                <a>Sign-Up</a>
 
-                <form id="questionnaireForm" enctype="multipart/form-data">
+                <form id="signUpForm" enctype="multipart/form-data">
                     <div>
-                        <label for="userName">Username:</label>
-                        <textarea id="userName" name="userName" placeholder="userName" required rows="1"></textarea>
+                        <label for="eMail">Email:</label>
+                        <textarea id="eMail" name="eMail" placeholder="Email" required rows="1"></textarea>
                     </div>
                     <br>
                     <div>
@@ -27,8 +28,9 @@
                         <textarea id="passWord" name="passWord" placeholder="passWord" required rows="1"></textarea>
                     </div>
                     <br>
+                    <div id="validationMessage" style="color: red;"></div>
                     <div>
-                        <button type="submit">Sign in</button>
+                        <button type="submit">Sign-Up</button>
                     </div>
                 </form>
             </div>
