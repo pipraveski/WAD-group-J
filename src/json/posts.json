@@ -1,0 +1,84 @@
+{
+    "posts": [
+        {
+          "userName": "WanderingMind42",
+          "date": "2023-11-01T08:15:00Z",
+          "text": "I waved back at someone who was waving at someone else today",
+          "profilePicture": "res/images/profilepic1.png",
+          "image": "res/images/IMG_5411.png",
+          "imageTextDescription": "A silly cat"
+        },
+        {
+          "userName": "EchoThoughts",
+          "date": "2023-11-01T08:30:00Z",
+          "text": "Happens to the best of us",
+          "profilePicture": "res/images/profilepic2.jpg",
+          "image": null,
+          "imageTextDescription": null
+        },
+        {
+          "userName": "QuietObserver",
+          "date": "2023-11-01T09:45:00Z",
+          "text": "That's rough buddy",
+          "profilePicture": "res/images/profilepic3.jpg",
+          "image": "res/images/IMG_5799.jpg",
+          "imageTextDescription": "An exploding cat saying on my way"
+        },
+        {
+          "userName": "HiddenVoice",
+          "date": "2023-11-01T9:50:00Z",
+          "text": "lol",
+          "profilePicture": "res/images/profilepic4.jpg",
+          "image": null,
+          "imageTextDescription": null
+        },
+        {
+          "userName": "PixelGhost",
+          "date": "2023-11-01T10:20:00Z",
+          "text": "I'm trying to find out who asked",
+          "profilePicture": "res/images/profilepic5.jpg",
+          "image": "res/images/IMG_5800.jpg",
+          "imageTextDescription": "A cat on a telephone"
+        },
+        {
+          "userName": "SadCat",
+          "date": "2023-11-01T10:35:00Z",
+          "text": "I did",
+          "profilePicture": "res/images/profilepic6.jpg",
+          "image": "res/images/IMG_6017.png",
+          "imageTextDescription": "A nerdy cat about to correct someone"
+        },
+        {
+          "userName": "AnonScribe",
+          "date": "2023-11-01T10:50:00Z",
+          "text": "Nerd",
+          "profilePicture": "res/images/profilepic7.jpg",
+          "image": null,
+          "imageTextDescription": null
+        },
+        {
+          "userName": "SleeplessMuse",
+          "date": "2023-11-01T11:35:00Z",
+          "text": "Anyone know how to get rich quickly?",
+          "profilePicture": "res/images/profilepic8.jpg",
+          "image": null,
+          "imageTextDescription": null
+        },
+        {
+          "userName": "UrbanNomad",
+          "date": "2023-11-01T13:25:00Z",
+          "text": "Buy some NFT-s",
+          "profilePicture": "res/images/profilepic9.jpg",
+          "image": "res/images/IMG_6571.jpg",
+          "imageTextDescription": "A cat in a suit"
+        },
+        {
+          "userName": "ShadowsSpeak",
+          "date": "2023-11-01T14:10:00Z",
+          "text": "UrbanNomad right now",
+          "profilePicture": "res/images/profilepic10.jpg",
+          "image": "res/images/IMG_7001.png",
+          "imageTextDescription": "A cat that likes to give people reasons to hate it"
+        }
+      ]
+}
