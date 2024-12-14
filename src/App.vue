@@ -1,10 +1,23 @@
 <template>
-  <div>
-    <router-view />
-  </div>
+  <div id="app">
+    <PageHeader />
+    
+    <PageFooter />
+</div>
 </template>
 
+<script>
+import PageFooter from "./components/Footer.vue"
+import PageHeader from "./components/Header.vue"
 
+export default {
+    name: "app",
+    components: {
+        PageHeader,
+        PageFooter
+    }
+}
+</script>
 
 <style>
 #app {
